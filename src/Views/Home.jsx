@@ -16,7 +16,7 @@ const Home = () => {
   const [allProducts, setAllProducts] = useState([])
   
   useEffect(() => {
-    const allProductsUrl = 'food-delivery-app-owais/api/Restaurant/items'
+    const allProductsUrl = '/food-delivery-app-owais/api/Restaurant/items'
   async function getAllIProducts() {
     try{
       const response = await fetch(allProductsUrl);
@@ -29,7 +29,7 @@ const Home = () => {
   }
   getAllIProducts()
   }, [])
-  const restaurantUrl = 'food-delivery-app-owais/api/Restaurant';
+  const restaurantUrl = '/food-delivery-app-owais/api/Restaurant';
   useEffect(() => {
     
     async function getRestaurants(){
