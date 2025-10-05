@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color:#000;
+}
+.wrapper{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main{
+  flex:1 1 auto;
+}
+.container{
+  max-width:1240px;
+  margin:auto;
+}
+/* Restaurant List */
+.restaurant-list{
+   display: flex;
+  width:100%;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  column-gap:20px;
+}
+
+.products-list{
+  display: flex;
+  width:100%;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  column-gap:20px;
+}
+.all-products-head > h2{
+  margin-bottom: 10px;
+  color:#2e8f8d;
+}
+.all-products-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width:100%;
+}
+.slider-btns-allProducts{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slider-btns-allProducts svg{
+  background-color: #2e8f8d;
+  border: 0 none;
+    padding: 5px 10px;
+    border-radius: 6px;
+    color: #fff;
+}
+.slider-btns-allProducts .prev-btn svg{
+  transform: rotate(180deg);  
+}
+.slider-btns-allProducts .prev-btn{
+  margin-right:15px;
+}
+.restaurant-sec{
+  margin-top:50px;
+}
+
+/* Single Product */
+.product-top{
+  width:100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin:50px 0;
+}
+.product-img{
+  width:47%;
+  text-align: center;
+}
+.product-img img{
+ max-width:100%;
+}
+.product-cont{
+  width:50%;
+}
+.product-cont h1{
+  font-size: 48px;
+  color:#233754;
+}
+.product-cont p{
+  font-size: 18px;
+  line-height: 28px;
+}
+.product-cont p.product-cat{
+  margin-top:10px;
+  margin-bottom:20px
+}
+.product-cont p.product-cat strong{
+  color:#233754;
+}
+.product-rating{
+  margin:15px 0 20px 0;
+}
+.product-price{
+
+}
+.product-price strong{
+  color:#2e8f8d;
+  font-size: 24px;
+}
+.all-products .loadingData{
+  align-self:center;
+  width:100%;
+}

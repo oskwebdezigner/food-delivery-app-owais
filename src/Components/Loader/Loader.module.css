@@ -1,0 +1,13 @@
+.loadingData{
+  height:calc(100vh - 170px);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-self: center;
+  width: 100%;
+}
+.loadingData p{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
