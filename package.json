@@ -2,7 +2,7 @@
   "name": "food-delivery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://oskwebdezigner.github.io/food-delivery-app",
+  "homepage": "https://oskwebdezigner.github.io/food-delivery-app-owais",
   "proxy": "https://fakerestaurantapi.runasp.net",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",

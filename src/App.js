@@ -8,7 +8,7 @@ import SingleProduct from './Views/SingleProduct'
 
 function App() {
   return (
-    <BrowserRouter basename='/food-delivery-app'>
+    <BrowserRouter basename='/food-delivery-app-owais'>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
