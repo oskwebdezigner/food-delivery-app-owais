@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/food-delivery-app-owais/static/css/main.61b10fcd.css",
-    "main.js": "/food-delivery-app-owais/static/js/main.fc6800c2.js",
+    "main.js": "/food-delivery-app-owais/static/js/main.0dfd4e6f.js",
     "static/js/453.bcad73e1.chunk.js": "/food-delivery-app-owais/static/js/453.bcad73e1.chunk.js",
     "static/media/logo.svg": "/food-delivery-app-owais/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/food-delivery-app-owais/index.html",
     "main.61b10fcd.css.map": "/food-delivery-app-owais/static/css/main.61b10fcd.css.map",
-    "main.fc6800c2.js.map": "/food-delivery-app-owais/static/js/main.fc6800c2.js.map",
+    "main.0dfd4e6f.js.map": "/food-delivery-app-owais/static/js/main.0dfd4e6f.js.map",
     "453.bcad73e1.chunk.js.map": "/food-delivery-app-owais/static/js/453.bcad73e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61b10fcd.css",
-    "static/js/main.fc6800c2.js"
+    "static/js/main.0dfd4e6f.js"
   ]
 }
