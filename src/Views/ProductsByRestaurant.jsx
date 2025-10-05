@@ -12,7 +12,7 @@ const ProductsByRestaurant = (props) => {
 
   useEffect(() => {
       async function getProductsByRestaurant(){
-          const url = `/api/Restaurant/${item.restaurantID}/menu`;
+          const url = `food-delivery-app-owais/api/Restaurant/${item.restaurantID}/menu`;
           try{
               const response = await fetch(url);
               const data = await response.json();
