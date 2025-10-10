@@ -16,11 +16,13 @@ const Home = () => {
   const [allProducts, setAllProducts] = useState([])
   
   useEffect(() => {
-    const allProductsUrl = '/api/Restaurant/items'
+    const allProductsUrl = 'https://restaurant-proxy-nine.vercel.app/api/proxy?path=Restaurant/items'
   async function getAllIProducts() {
     try{
       const response = await fetch(allProductsUrl);
       const data = await response.json();
+
+      
       console.log(data)
       setAllProducts(data)
     }catch(error){
@@ -29,7 +31,7 @@ const Home = () => {
   }
   getAllIProducts()
   }, [])
-  const restaurantUrl = '/api/Restaurant';
+  const restaurantUrl = 'https://restaurant-proxy-nine.vercel.app/api/proxy/?path=Restaurant';
   useEffect(() => {
     
     async function getRestaurants(){
@@ -37,6 +39,8 @@ const Home = () => {
     try{
       const response = await fetch(restaurantUrl);
       const data = await response.json();
+
+      
       console.log(data);
       setRestaurant(data)
       setLoading(false)
